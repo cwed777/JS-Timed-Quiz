@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body {
+    background-image: url(./images/RedUniverse.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container {
+    width: 940px;
+    background-color: green;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    min-height: 350px;
+    padding: 80px 90px;
+    border-radius: 15px; 
+    display: flex;
+    
+}
+
+.leftside,
+.rightside {
+    width:  50%;
+}
+.leftside img {
+    height: 300px;
+    width: 300px;
+}
+
+.rightside h1{
+    color: blue;
+}
+
+.rightside h2{
+    color: purple;
+    margin: 20px auto 10px;
+    font-size: 25px;
+}
+.rightside ul{
+    color: green;
+    font-size: 18px;
+}
